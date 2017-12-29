@@ -7,15 +7,16 @@
 #include "manipulationGrille.h"
 
 int main(void){
-
 	remplirGrille();
 	afficherGrille();
 	
-	while(1){
+	while(partieTerminee() != 1){
 		jouerCoup();
 		suppressionBille();
 		afficherGrille();
 	}
-	
+
+	printf("Partie terminé en %d coups! \n", nombreCoups);
+
 	return 0;
 }
