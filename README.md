@@ -1,3 +1,3 @@
 # Projet-MIPS-Samegame
 
-Implementation of the game "Samegame" in written in both C and Assembly.
+Implementation of the game "Samegame" coded in both C and Assembly.
