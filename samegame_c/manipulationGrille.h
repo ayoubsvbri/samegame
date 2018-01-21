@@ -1,0 +1,2 @@
+int parcourirGrille();
+void suppressionBille();
