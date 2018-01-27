@@ -189,7 +189,7 @@ fctRemplirGrille:
 		
 		la $s3, grilleBille 			# s3 <- @grilleBille
  		add $s3, $s3, $s0
- 		addi $s3, $s3 3				# on se place à la première case à remplir
+ 		addi $s3, $s3, 3			# on se place à la première case à remplir
  		
  		remplirLignes:
  			   	   
